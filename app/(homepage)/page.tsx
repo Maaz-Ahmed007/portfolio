@@ -20,9 +20,9 @@ const Page = () => {
                         sectionHeading="Introdução"
                         color={1}
                     />
-                    <div className="md:w-2/3 my-auto pl-32">
+                    <div className="h-screen w-full p-8 my-auto items-center content-center justify-start md:pl-32">
                         <SectionHeader heading="Nuno bernardes" />
-                        <SectionSubheading first="em primeira pessoa" second="primeira pessoa..." />
+                        <SectionSubheading subHeading="primeira pessoa..." />
                         <SectionParagraph />
                         <CustomButtom />
                     </div>

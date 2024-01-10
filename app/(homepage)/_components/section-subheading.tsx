@@ -14,22 +14,16 @@ const textFont = Cinzel({
 });
 
 interface SectionSubheadingProps {
-    first: string
-    second: string
+    subHeading: string
 }
 
-export const SectionSubheading = ({ first, second }: SectionSubheadingProps) => {
+export const SectionSubheading = ({ subHeading }: SectionSubheadingProps) => {
     return (
         <div className="flex items-center md:justify-start justify-center">
             <h1 className={cn(
                 "text-3xl md:text-2xl font-light uppercase whitespace-nowrap text-center text-neutral-800 mb-6",
                 textFont.className)}>
-                <div className="block md:hidden">
-                    {first}
-                </div>
-                <div className="hidden md:block">
-                    {second}
-                </div>
+                {subHeading}
             </h1>
         </div>
     )

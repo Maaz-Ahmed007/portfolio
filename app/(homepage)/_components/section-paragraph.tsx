@@ -12,9 +12,9 @@ export const SectionParagraph = () => {
             "text-gray-500",
             paragraphText.className
         )}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit numquam soluta, quisquam deleniti at laudantium, nisi, a corrupti officiis tempore eligendi repellat aliquid odit.
+            Sou o Nuno e sou Designer natural de Braga, nascido em 2004. Sou destacado pela minha paixão pela relojoaria e do meu estilo clássico distinto.
             <div className="pt-4">
-                Fugiat similique vitae saepe maiores repudiandae quos magni pariatur accusamus voluptatum, cupiditate optio sunt quis.
+                Como designer, consigo ter uma apreciação refinada pela estética e pelo design, tentando a pouco e pouco refletir isso nos meus projetos.
             </div>
         </div>
     )

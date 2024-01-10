@@ -32,10 +32,9 @@ export const SideSectionHeader = ({
 }: SideSectionHeaderProp) => {
     return (
         // w-1/6 transform -rotate-90
-        <div className="flex items-center justify-center 
-        relative top-1/2 w-1/6 transform -rotate-90">
+        <div className="md:flex items-center justify-center hidden relative top-1/2 w-1/4 md:w-1/6 transform -rotate-90">
             <div className={cn(
-                "whitespace-nowrap uppercase text-2xl md:text-3xl font-normal mr-4",
+                "whitespace-nowrap uppercase sm:text-xl md:text-3xl font-normal mr-4",
                 textFont.className,
                 color === 1 && "text-black",
                 color === 2 && "text-white"
