@@ -10,7 +10,7 @@ const Page = () => {
     return (
         <>
             <section
-                className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#BDBDBD]"
+                className="flex flex-col md:flex-row h-full items-center w-full justify-between bg-[#BDBDBD]"
                 id="section1"
             >
                 <div className="h-full md:w-2/4
@@ -20,7 +20,7 @@ const Page = () => {
                         sectionHeading="Introdução"
                         color={1}
                     />
-                    <div className="h-screen w-full p-8 my-auto items-center content-center justify-start md:pl-32">
+                    <div className="h-screen w-full my-auto text-center md:justify-start py-28 px-20 md:py-48 md:px-36">
                         <SectionHeader heading="Nuno bernardes" />
                         <SectionSubheading subHeading="primeira pessoa..." />
                         <SectionParagraph />
