@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 import { SideSectionHeader } from "./_components/section-side-header"
 import { SectionHeader } from "./_components/section-header"
 import { SectionSubheading } from "./_components/section-subheading"
@@ -21,13 +23,22 @@ const Page = () => {
                         color={1}
                     />
                     <div className="h-screen w-full my-auto text-center md:justify-start py-28 px-20 md:py-48 md:px-36">
+
                         <SectionHeader heading="Nuno bernardes" />
                         <SectionSubheading subHeading="primeira pessoa..." />
                         <SectionParagraph />
                         <CustomButtom />
+                        <div className="md:hidden flex justify-center w-full">
+                            <Image
+                                width={300}
+                                height={300}
+                                src="/home-images/img.png"
+                                alt="Home Image"
+                            />
+                        </div>
                     </div>
                 </div>
-                <div className="relative h-full md:w-2/4 sm:w-full">
+                <div className="hidden md:block h-4/5 md:w-2/4">
                     <SectionImage />
                 </div>
             </section>
@@ -35,8 +46,7 @@ const Page = () => {
                 className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#898989]"
                 id="section2"
             >
-                <div className="h-full md:w-2/4
-                md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4">
                     <SideSectionHeader
                         sectionNumber="2"
                         sectionHeading="Meu Portfolio"
@@ -46,7 +56,8 @@ const Page = () => {
                         Section 1
                     </div>
                 </div>
-                <div className="h-full md:w-2/4 sm:w-full md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4 sm:w-full
+                md:border-l md:shadow-2xl border-gray-500">
                     Section 2
                 </div>
             </section>
@@ -65,7 +76,7 @@ const Page = () => {
                         Section 1
                     </div>
                 </div>
-                <div className="h-full md:w-2/4 sm:w-full md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4 sm:w-full">
                     Section 2
                 </div>
             </section>
@@ -73,8 +84,7 @@ const Page = () => {
                 className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#898989]"
                 id="section4"
             >
-                <div className="h-full md:w-2/4
-                md:border-r md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4">
                     <SideSectionHeader
                         sectionNumber="4"
                         sectionHeading="Meus Serviços"
@@ -84,7 +94,8 @@ const Page = () => {
                         Section 1
                     </div>
                 </div>
-                <div className="h-full md:w-2/4 sm:w-full md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4 sm:w-full
+                md:border-l md:shadow-2xl border-gray-500">
                     Section 2
                 </div>
             </section>
@@ -103,7 +114,7 @@ const Page = () => {
                         Section 1
                     </div>
                 </div>
-                <div className="h-full md:w-2/4 sm:w-full md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4 sm:w-full">
                     Section 2
                 </div>
             </section>
@@ -111,8 +122,7 @@ const Page = () => {
                 className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#898989]"
                 id="section6"
             >
-                <div className="h-full md:w-2/4
-                md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4">
                     <SideSectionHeader
                         sectionNumber="6"
                         sectionHeading="Contactos"
@@ -122,7 +132,8 @@ const Page = () => {
                         Section 1
                     </div>
                 </div>
-                <div className="h-full md:w-2/4 sm:w-full md:border-l md:shadow-2xl border-gray-400">
+                <div className="h-full md:w-2/4 sm:w-full 
+                md:border-l md:shadow-2xl border-gray-500">
                     Section 2
                 </div>
             </section>
