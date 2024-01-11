@@ -15,14 +15,21 @@ const textFont = Cinzel({
 
 interface SectionSubheadingProps {
     subHeading: string
+    section?: boolean
 }
 
-export const SectionSubheading = ({ subHeading }: SectionSubheadingProps) => {
+export const SectionSubheading = ({
+    subHeading,
+    section = false
+}: SectionSubheadingProps) => {
     return (
         <div className="flex items-center md:justify-start justify-center">
             <h1 className={cn(
-                "text-3xl md:text-2xl font-light uppercase whitespace-nowrap text-center text-neutral-800 mb-6",
-                textFont.className)}>
+                "text-3xl md:text-2xl font-light uppercase text-center md:text-start mb-6",
+                textFont.className,
+                !section && "text-neutral-800",
+                section && "text-slate-200"
+            )}>
                 {subHeading}
             </h1>
         </div>

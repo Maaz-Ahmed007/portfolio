@@ -6,15 +6,27 @@ const paragraphText = Gothic_A1({
     weight: "400"
 })
 
-export const SectionParagraph = () => {
+interface SectionParagraphProps {
+    text1: string
+    text2?: string
+    section?: boolean
+}
+
+export const SectionParagraph = ({
+    text1,
+    text2,
+    section = false
+}: SectionParagraphProps) => {
     return (
         <div className={cn(
             "text-gray-500",
-            paragraphText.className
+            paragraphText.className,
+            !section && "text-gray-500",
+            section && "text-gray-300"
         )}>
-            Sou o Nuno e sou Designer natural de Braga, nascido em 2004. Sou destacado pela minha paixão pela relojoaria e do meu estilo clássico distinto.
+            {text1}
             <div className="pt-4">
-                Como designer, consigo ter uma apreciação refinada pela estética e pelo design, tentando a pouco e pouco refletir isso nos meus projetos.
+                {text2}
             </div>
         </div>
     )

@@ -1,11 +1,15 @@
 import Image from "next/image"
 
-export const SectionImage = () => {
+interface SectionImageProps {
+    src: string
+}
+
+export const SectionImage = ({ src }: SectionImageProps) => {
     return (
         <div className="md:relative h-full w-full">
             <Image
                 fill
-                src="/home-images/img.png"
+                src={src}
                 alt="Home Image"
             />
         </div>
