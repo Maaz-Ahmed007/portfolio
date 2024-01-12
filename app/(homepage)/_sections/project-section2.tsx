@@ -7,7 +7,7 @@ export const ProjectSection2 = () => {
     return (
         <section
             className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#BDBDBD]"
-            id="section3"
+            id="section5"
         >
             <div className="h-full md:w-2/4
                 md:border-r md:shadow-2xl border-gray-400">

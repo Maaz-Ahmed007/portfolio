@@ -1,3 +1,4 @@
+import { Footer } from "./_components/footer"
 import { Navbar } from "./_components/navbar"
 import { SectionSlider } from "./_components/section-slider"
 
@@ -11,6 +12,7 @@ const Portfolio = ({
             <Navbar />
             <SectionSlider />
             {children}
+            <Footer />
         </div>
     )
 }

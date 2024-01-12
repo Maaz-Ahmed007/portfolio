@@ -7,7 +7,7 @@ export const ServicesSection = () => {
     return (
         <section
             className="flex flex-col md:flex-row h-full mx-auto items-center w-full justify-between bg-[#898989]"
-            id="section2"
+            id="section4"
         >
             <div className="h-full md:w-2/4">
                 <SideSectionHeader
