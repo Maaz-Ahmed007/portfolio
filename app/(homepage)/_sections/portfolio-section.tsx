@@ -17,7 +17,7 @@ export const PortfolioSection = () => {
                     color={2}
                 />
                 <div className="hidden md:block mt-20 mb-0 h-4/5">
-                    <SectionImage src="/home-images/section2pic.png" />
+                    <SectionImage src="/section2pic.png" />
                 </div>
                 <div className="md:w-2/3 my-auto pl-32">
                 </div>

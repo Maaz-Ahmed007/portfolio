@@ -8,17 +8,26 @@ import { CustomButtom } from "../_components/custom-button"
 export const IntroductionSection = () => {
     return (
         <section
-            className="flex flex-col md:flex-row h-full items-center w-full justify-between bg-[#BDBDBD]"
+            className="
+                flex flex-col md:flex-row 
+                h-full w-full
+                bg-[#BDBDBD]"
             id="section1"
         >
-            <div className="h-full md:w-2/4
-                    md:border-r md:shadow-2xl border-gray-400">
+            <div className="
+                h-full md:w-1/2
+                flex justify-center
+                md:border-r md:shadow-2xl border-gray-400
+                flex-col md:flex-row items-center
+            ">
                 <SideSectionHeader
                     sectionNumber="1"
                     sectionHeading="Introdução"
                     color={1}
                 />
-                <div className="h-full w-full my-auto text-center md:text-start md:justify-start py-28 px-20 lg:my-48 md:px-40">
+                <div className="
+                    px-4 md:px-20 lg:px-40 w-full flex flex-col items-center md:items-start text-center md:text-start
+                  ">
                     <SectionHeader heading="Nuno bernardes" />
                     <SectionSubheading subHeading="primeira pessoa..." />
                     <SectionParagraph
