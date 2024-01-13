@@ -11,7 +11,6 @@ import { SectionComponentMobile } from "./_sections/section-component-mobile"
 const Page = () => {
     return (
         <>
-            <SectionComponentMobile />
             <SectionComponent />
             {/* <IntroductionSection />
             <PortfolioSection />

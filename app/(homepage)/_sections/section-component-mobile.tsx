@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const SectionComponentMobile = () => {
     return (
-        <section className="flex flex-col h-[150vh] w-full bg-[#898989]" id="section1">
+        <section className="md:hidden flex flex-col h-[150vh] w-full bg-[#898989] overflow-y-auto" id="section1">
             {/* Single Column for Smaller Devices */}
             <div className="md:hidden">
                 {/* Content */}
