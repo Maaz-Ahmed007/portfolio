@@ -6,13 +6,12 @@ import { ProjectSection2 } from "./_sections/project-section2"
 import { ContactsSection } from "./_sections/contacts-section"
 
 import { SectionComponent } from "./_sections/section-component"
+import { SectionComponentMobile } from "./_sections/section-component-mobile"
 
 const Page = () => {
     return (
         <>
-            <SectionComponent />
-            <SectionComponent />
-            <SectionComponent />
+            <SectionComponentMobile />
             <SectionComponent />
             {/* <IntroductionSection />
             <PortfolioSection />
