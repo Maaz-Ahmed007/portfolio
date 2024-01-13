@@ -23,7 +23,7 @@ export const SectionHeader = ({
     section = false
 }: SectionHeaderProps) => {
     return (
-        <div className="flex items-center md:justify-start justify-center">
+        <div className="flex items-center justify-center md:justify-start">
             <h1 className={cn(
                 "text-3xl md:text-2xl font-extrabold uppercase whitespace-nowrap text-center mb-1",
                 textFont.className,

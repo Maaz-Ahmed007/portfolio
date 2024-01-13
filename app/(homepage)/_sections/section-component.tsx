@@ -16,6 +16,7 @@ export const SectionComponent = () => {
                 </div>
                 {/* Content */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-start w-full px-12 md:px-20 lg:px-32">
+                    {/* Content heading */}
                     <div className="flex items-center justify-center md:justify-start">
                         <h1 className="text-3xl md:text-2xl font-extrabold uppercase whitespace-nowrap text-center mb-1 text-neutral-800">Heading</h1>
                     </div>
