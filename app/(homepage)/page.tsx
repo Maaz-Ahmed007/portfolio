@@ -10,10 +10,10 @@ const Page = () => {
         <>
             <IntroductionSection />
             <PortfolioSection />
-            {/* <ProjectSection /> */}
-            {/* <ServicesSection /> */}
-            {/* <ProjectSection2 /> */}
-            {/* <ContactsSection /> */}
+            <ProjectSection />
+            <ServicesSection />
+            <ProjectSection2 />
+            <ContactsSection />
         </>
     )
 }

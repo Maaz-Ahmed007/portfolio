@@ -56,7 +56,6 @@ export const PortfolioSection = () => {
                 </div>
             </div>
             {/* Right section */}
-            {/* Changes to be made for centered alignment */}
             <div className="hidden md:flex justify-center items-center md:w-2/4 md:border-l md:shadow-2xl border-gray-500">
                 {/* Right section content */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-start w-full px-12 md:px-20 lg:px-32 pt-20">
@@ -122,7 +121,7 @@ export const PortfolioSection = () => {
                     <Image
                         layout="responsive"
                         width={800}
-                        height={600}
+                        height={900}
                         src="/section2pic.png"
                         alt="Right Image"
                     />
