@@ -44,16 +44,73 @@ export const ServicesSection = () => {
                         lavishly_yoursFont.className
                     )}>4</div>
                 </div>
-                {/* Left section image */}
-                <div className="relative overflow-hidden mt-8">
-                    {/* TODO: Services containers */}
-                    {/* <Image
-                        layout="responsove"
-                        width={800}
-                        height={900}
-                        src="/section2pic.png"
-                        alt="Portfolio Image"
-                    /> */}
+                {/* Left section services */}
+                <div className="mt-8">
+                    <div className="h-full w-full flex items-center justify-center flex-col space-y-8">
+                        {/* Project container 1 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/one.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/two.jpg"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                        {/* Project container 2 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/three.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/four.jpg"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                        {/* Project container 3 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section3/three.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section3/four.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* Right section */}
@@ -117,15 +174,72 @@ export const ServicesSection = () => {
                         </div>
                     </div>
                 </div>
-                {/* TODO: Services containers */}
-                <div className="relative overflow-hidden mt-8">
-                    {/* <Image
-                        layout="responsive"
-                        width={800}
-                        height={900}
-                        src="/section2pic.png"
-                        alt="Right Image"
-                    /> */}
+                <div className="mt-8 pb-12">
+                    <div className="h-full w-full flex items-center justify-center flex-col space-y-8">
+                        {/* Project container 1 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/one.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/two.jpg"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                        {/* Project container 2 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/three.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section4/four.jpg"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                        {/* Project container 3 */}
+                        <div className="flex items-center justify-center flex-row gap-16 pt-8">
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section3/three.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                            <div className="h-28 w-36 flex justify-center items-center">
+                                <Image
+                                    layout="responsive"
+                                    width={400}
+                                    height={400}
+                                    src="/section3/four.png"
+                                    alt="Project Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
