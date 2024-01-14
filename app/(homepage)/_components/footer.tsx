@@ -2,10 +2,7 @@ import Image from "next/image"
 
 export const Footer = () => {
     return (
-        <div className="
-            w-full flex flex-col pt-16 px-16
-            bg-[#BDBDBD]
-        ">
+        <div className="w-full flex flex-col pt-16 px-16 bg-[#BDBDBD]">
             <div className="flex items-center justify-center md:justify-start w-full">
                 <h1 className="text-3xl font-extrabold uppercase whitespace-nowrap text-center mb-1 text-neutral-800">
                     Navega por aqui
